@@ -1,0 +1,27 @@
+label {
+    width: 40%;
+}
+
+.form-control {}
+
+.form-control label {
+    width: 20%;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+.nav {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 200px;
+}

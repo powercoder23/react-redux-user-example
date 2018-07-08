@@ -1,8 +1,20 @@
 import * as allActions from './allActions';
 
 export function receiveStuff(data) {
-    return {type: allActions.RECEIVE_STUFF, stuff: data};
+    return { type: allActions.RECEIVE_STUFF, stuff: data};
 }
+
+export const addUser = stuff => ({
+    type: allActions.ADD_STUFF, stuff
+})
+
+export const deleteUser = index => ({
+    type: allActions.DEL_STUFF, index
+})
+
+export const editUser = data => ({
+    type: allActions.EDIT_STUFF, data
+})
 
 export function fetchStuff() {
     return (dispatch) => {
